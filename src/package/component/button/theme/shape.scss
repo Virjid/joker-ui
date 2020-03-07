@@ -1,0 +1,16 @@
+@import '../../../../theme/variable.scss';
+
+.jk-btn-circle {
+    border-radius: $default-btn-height;
+    &.jk-btn-icon-only {
+        border-radius: 50%;
+    }
+
+    &.jk-btn-big {
+        border-radius: $big-btn-height;
+    }
+}
+
+.jk-btn-rectangle {
+    border-radius: 0;
+}

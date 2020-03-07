@@ -1,0 +1,15 @@
+@import '../../../theme/variable.scss';
+
+.jk-icon {
+    display: inline-block;
+    font-size: $default-icon-size;
+}
+
+@keyframes turn {
+    0%{transform:rotate(0deg);}
+    100%{transform:rotate(360deg);}
+}
+
+.jk-icon-loading {
+    animation:turn .8s linear infinite; 
+}

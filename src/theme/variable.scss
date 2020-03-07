@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+
+
+$primary-color: #2D8CF0;
+$light-primary-color: #5CADFF;
+$dark-primary-color: #2B85E4;
+
+$info-color: #2DB7F5;
+$light-info-color: #57c5f7;
+$dark-info-color: #2baee9;
+
+$success-color: #19BE6B;
+$light-success-color: #47cb89;
+$dark-success-color: #18b566;
+
+$warning-color: #FF9900;
+$light-warning-color: #ffad33;
+$dark-warning-color: #f29100;
+
+$error-color: #ED4014;
+$light-error-color: #f16643;
+$dark-error-color: #e13d13;
+
+$title-color: #17233d;
+$content-color: #515a6e;
+$sub-color: #808695;
+$disabled-color: #C5C8CE;
+$border-color: #dcdee2;
+$divider-color: #e8eaec;
+$background-color: #f8f8f9;
+
+
+// TODO 声明有关尺寸的变量
+// 尺寸的类型有：small、medium(default)、big
+// 尺寸的种类有：宽度、高度、通用尺寸、字体大小
+$default-font-size: 12px;
+
+$small-icon-size: 10px;
+$default-icon-size: 12px;
+$big-icon-size: 24px;
+
+$small-btn-height: 24px;
+$default-btn-height: 32px;
+$big-btn-height: 40px;
+
+:export {
+    small_icon_size: $small-icon-size;
+    default_icon_size: $default-icon-size;
+    big_icon_size: $big-icon-size;
+}

@@ -1,0 +1,17 @@
+@import '../../../../theme/variable.scss';
+
+.jk-btn-small {
+    height: $small-btn-height;
+
+    &.jk-btn-icon-only {
+        width: $small-btn-height;
+    }
+}
+
+.jk-btn-big {
+    height: $big-btn-height;
+
+    &.jk-btn-icon-only {
+        width: $big-btn-height;
+    }
+}
